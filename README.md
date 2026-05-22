@@ -1,6 +1,5 @@
 # Smartphone Store Management System
 
-# Smartphone Store Management System
 
 A web-based inventory management system built with PHP and MySQL for managing smartphone products with secure authentication and CRUD operations.
 
