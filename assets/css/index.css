@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+}
+
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.15);
+}
+
+.card-img-top {
+    height: 250px;
+    width: 200px;
+    margin: auto;
+}
+
+.auth-card {
+    width: 600px;
+    max-width: 95%;
+    min-height: 480px;
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+.nav-link {
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.nav-link:hover {
+    color: #0d6efd !important;
+}
+
+.footer {
+    background-color: #111827;
+    color: #fff;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.footer a:hover {
+    color: #0d6efd;
+}
+
+.btn-sm {
+    border-radius: 10px;
+}
+
+.action-btn {
+    border-radius: 12px;
+    padding: 6px 12px;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    transition: 0.25s ease;
+    border: none;
+    color: #fff;
+}
+
+.edit-btn {
+    background: linear-gradient(135deg, #4f8cff, #1e63ff);
+}
+
+.edit-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(30, 99, 255, 0.3);
+}
+
+.delete-btn {
+    background: linear-gradient(135deg, #ff5f6d, #c9184a);
+}
+
+.delete-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(201, 24, 74, 0.3);
+}
